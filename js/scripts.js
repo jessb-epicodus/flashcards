@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable-1").click(function() {
     $("#Javascript-shown").toggle();
     $("#Javascript-hidden").toggle();
   });
 
-$(".clickable").click(function() {
+$(".clickable-2").click(function() {
   $("#Variables-shown").toggle();
   $("#Variables-hidden").toggle();
 });
